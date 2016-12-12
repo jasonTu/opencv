@@ -1,6 +1,7 @@
 /**
  * The example code descript image scan process.
  * Author: Jason Tu
+ * Date: 2016-12-12
  * You can refer to the following materials:
  * http://docs.opencv.org/2.4/doc/tutorials/core/how_to_scan_images/how_to_scan_images.html#howtoscanimagesopencv
  * http://docs.opencv.org/2.4/_downloads/how_to_scan_images.cpp
