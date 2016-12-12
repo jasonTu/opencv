@@ -28,6 +28,7 @@ int main()
     namedWindow("Sharpen Picture", CV_WINDOW_AUTOSIZE);
     imshow("Sharpen Picture", result);
 
+    // 下面我们进行一个简单的滤波操作，滤波算子为[0 –1 0;-1 5 –1;0 –1 0]
     Mat kern = (Mat_<char>(3, 3) << 0, -1, 0,
         -1, 5, -1,
         0, -1, 0);
